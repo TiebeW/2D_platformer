@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 234113226}
   - component: {fileID: 234113225}
   - component: {fileID: 234113224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1089,6 +1089,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56a47f36bb73fa340a599723ef8a3452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
   moveSpeed: 7
   jumpForce: 14
 --- !u!95 &1619602132
